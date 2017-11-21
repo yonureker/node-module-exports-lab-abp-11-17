@@ -1,6 +1,5 @@
 'use strict';
 
-const breaktheIce = require ('./Question.js')
 
 class Icebreaker{
   question(){
@@ -8,5 +7,4 @@ class Icebreaker{
   }
 }
 
-const breakTheIce = Icebreaker;
-module.exports = breakTheIce;
+module.exports = Icebreaker
