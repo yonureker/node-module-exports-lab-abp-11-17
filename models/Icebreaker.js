@@ -1,5 +1,6 @@
 'use strict';
 
+require ('models/Question')
 
 class Icebreaker{
   question(){
@@ -7,3 +8,5 @@ class Icebreaker{
   }
 }
 
+const breakTheIce = Icebreaker;
+module.exports = breakTheIce;
